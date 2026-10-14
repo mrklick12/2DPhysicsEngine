@@ -1,0 +1,32 @@
+﻿<Window x:Class="_2DPhysicsEngine.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2DPhysicsEngine"
+        mc:Ignorable="d"
+        Title="C# Physics Engine" Height="720" Width="1080"
+        KeyDown="Window_KeyDown"
+        KeyUp="Window_KeyUp">
+    <Canvas x:Name="MainCanvas" Background="Black" MouseRightButtonDown="SimCanvas_MouseRightButtonDown">
+        <Canvas.RenderTransform>
+            <ScaleTransform ScaleX="1" ScaleY="1"/>
+        </Canvas.RenderTransform>
+        
+        <Ellipse x:Name="Ball1" Width="30" Height="30" Fill="Blue" Canvas.Left="200" Canvas.Top="200"/>
+        <Path x:Name="Ground1" Stroke="Green" StrokeThickness="15" Data="M 0,200 L 600, 400"/>
+        <Path x:Name="Ground2" Stroke="Green" StrokeThickness="15" Data="M 595,400 L 800, 400"/>
+
+        <Path x:Name="Step1" Stroke="Green" StrokeThickness="10" Data="M 980,650 L 1080, 650"/>
+        <Path x:Name="Step2" Stroke="Green" StrokeThickness="10" Data="M 780,525 L 880, 525"/>
+        <Path x:Name="Step3" Stroke="Green  " StrokeThickness="10" Data="M 980,400 L 1080, 400"/>
+
+        <Path x:Name="GroundBottom" Stroke="White" StrokeThickness="3" Data="M 0,720 L 1080, 720"/>
+
+
+
+
+
+
+    </Canvas>
+</Window>
