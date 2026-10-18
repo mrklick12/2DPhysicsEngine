@@ -8,7 +8,7 @@
         Title="C# Physics Engine" Height="720" Width="1080"
         KeyDown="Window_KeyDown"
         KeyUp="Window_KeyUp">
-    <Canvas x:Name="MainCanvas" Background="Black" MouseRightButtonDown="SimCanvas_MouseRightButtonDown">
+    <Canvas x:Name="MainCanvas" Background="Black">
         <Canvas.RenderTransform>
             <ScaleTransform ScaleX="1" ScaleY="1"/>
         </Canvas.RenderTransform>
@@ -22,11 +22,6 @@
         <Path x:Name="Step3" Stroke="Green  " StrokeThickness="10" Data="M 980,400 L 1080, 400"/>
 
         <Path x:Name="GroundBottom" Stroke="White" StrokeThickness="3" Data="M 0,720 L 1080, 720"/>
-
-
-
-
-
 
     </Canvas>
 </Window>
