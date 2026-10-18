@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="2DPhysicsEngine/2DPhysicsEngine.csproj" />
+  <Project Path="PhysicsEngine.Tests/PhysicsEngine.Tests.csproj" />
   <Project Path="PhysicsEngine/PhysicsEngine.csproj" />
 </Solution>
