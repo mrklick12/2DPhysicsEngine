@@ -1,4 +1,5 @@
-class Segment
+namespace PhysicsEngine;
+public class Segment
 {
     public Vector2 A { get; set; } // represents the start point of the ground segment
 

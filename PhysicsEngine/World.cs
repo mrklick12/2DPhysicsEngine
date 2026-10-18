@@ -1,4 +1,5 @@
-class World
+namespace PhysicsEngine;
+public class World
 {
     public double g = 300.0; // gravity constant
     public double frictionRate = 2.5; // friction rate for sliding on slopes

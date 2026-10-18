@@ -1,4 +1,5 @@
-class Body
+namespace PhysicsEngine;
+public class Body
 {
     public Vector2 position { get; set;  }
 

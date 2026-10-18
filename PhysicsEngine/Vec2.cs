@@ -1,4 +1,5 @@
-struct Vector2
+namespace PhysicsEngine;
+public struct Vector2
 {
     public double x { get; set; }
     public double y { get; set; }
