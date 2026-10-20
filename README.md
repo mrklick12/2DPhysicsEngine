@@ -19,7 +19,7 @@ response, friction and restitution.
 | Key | Action |
 |---|---|
 | Left / Right | Move the blue ball |
-| Space | Jump (when grounded) |
+| Space | Jump |
 | 0 | Spawn a large ball at the cursor |
 | 1 | Spawn a small ball at the cursor |
 
