@@ -4,7 +4,7 @@ A 2D rigid body physics engine written from scratch in C#, with a WPF demo.
 Circles collide with each other and with thick line segments, with impulse-based
 response, friction and restitution.
 
-![Demo](docs/demo.gif)
+![Demo](2DPhysicsEngine/PhysicsEngineDemo.gif)
 
 ## Features
 - Circle bodies with mass derived from radius
